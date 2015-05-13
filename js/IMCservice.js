@@ -1,7 +1,7 @@
 var IMCService = {
 	
 	calculate: function(height, weight) {
-		
+		return weight / (height * height);
 	},
 	
 	//TODO to implemented
